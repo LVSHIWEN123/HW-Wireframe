@@ -1,0 +1,96 @@
+.clearfix:after {
+    content: "020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+/* .fl{
+        float: left;
+    }
+    .fr{
+        float: right;
+    } */
+
+body {
+    background-color: #777777;
+}
+
+header {
+    width: 72.8%;
+    height: 14.28vh;
+    text-align: center;
+    background-color: white;
+    margin: 0 auto;
+    line-height: 90px;
+}
+
+nav {
+    width: 72.8%;
+    height: 14.28vh;
+    text-align: center;
+    background-color: white;
+    margin: 0 auto;
+    line-height: 90px;
+    margin-top: 10px;
+}
+
+.content {
+    width: 72.8%;
+    margin: 20px auto;
+}
+
+.content section {
+    width: 54%;
+    height: 40vh;
+    background-color: white;
+    margin-right: 2.2%;
+    border: 1px solid white;
+    float: left;
+}
+
+.content section article {
+    width: 96%;
+    height: 190px;
+    margin-top: 84px;
+    margin-left: 12px;
+    background-color: #777777;
+    border: 1px solid #777777;
+}
+
+.content section article h1 {
+    width: 90%;
+    height: 55px;
+    margin-top: 50px;
+    margin-left: 22px;
+    background-color: white;
+}
+
+.content section article p {
+    width: 90%;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 22px;
+    background-color: white;
+}
+
+.content aside {
+    width: 43%;
+    height: 40vh;
+    background-color: white;
+    float: left;
+}
+
+footer {
+    width: 72.8%;
+    height: 14.28vh;
+    text-align: center;
+    background-color: white;
+    margin: 0 auto;
+    line-height: 90px;
+}
